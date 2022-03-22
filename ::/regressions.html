@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Linear regression diagnostics</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.6/p5.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.6/addons/p5.dom.js"></script>
+
+	<script src="../libs/math.min.js"></script>
+	
+	<script src="dot.js"></script>
+	<script src="stats.js"></script>
+	
+	<script src="main.js"></script>
+	<script src="diagnostics.js"></script>
+	
+	<script src="regression.js"></script>
+	<script src="sketch.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h1>Linear regression diagnostics</h1>
+
+<div id="plots">
+	<div id="main">
+		<h2>Scatter plot</h2>
+	</div>
+	<div id="diagnostics">
+		<h2>Residual plot</h2>
+	</div>
+</div>
+
+<div id="stats">
+	<div id="reg_line"></div>
+	<div id="means"></div>
+</div>
+
+<p>Move the points by clicking on them.</p>
+
+<div id="buttons"></div>
+
+</body>
+</html>
